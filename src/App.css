@@ -1,0 +1,159 @@
+.title {
+    font-size: 2.2em;
+    line-height: 1.1;
+    display: flex;
+    align-content: center;
+    & > h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+.center {
+       margin: 0 auto;
+       max-width: 1280px;
+}
+
+
+.wrapper {
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.header > .rightPart {
+    align-items: center;
+
+    & > .subtext {
+        font-size: 2em;
+
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+
+    font-size: 1.5em;
+}
+
+
+.characteristics {
+    padding-left: 1rem;
+}
+
+.logo {
+    height: 8rem;
+    margin-right: 0.5em;
+    border-radius: 20%;
+}
+
+
+.subSubText {
+    color: #06a77d;
+}
+
+.appStoreLogo {
+    height: 3.5rem;
+    margin-left: 2em;
+
+    & > a > img {
+        height: 100%;
+    }
+}
+
+.barText {
+    padding-left: 1rem;
+    font-size: 38px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blueBarText {
+    margin-left: 2.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+    line-height: 1.2;
+}
+
+.blueBarText::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.4rem;
+    height: 40%;
+    background-color: #454ADE;
+    padding: 1rem 0;
+    box-sizing: border-box;
+}
+
+.greenBarText {
+    position: relative;
+    padding-left: 1.5rem;
+    line-height: 1.2;
+}
+
+.greenBarText::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.4rem;
+    height: 40%;
+    background-color: #06A77D;
+    padding: 1rem 0;
+    box-sizing: border-box;
+}
+
+.secondPartWrapper {
+    margin-bottom: 1rem;
+}
+
+.secondPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+}
+
+.copyleftText {
+    text-align: right;
+
+    & > p {
+        margin: 0.5rem;
+    }
+}
+
+.contact {
+    & > p, h3 {
+        margin: 0;
+    }
+
+    & > p > span {
+        margin-left: -0.35rem;
+        margin-right: -0.35rem;
+
+    }
+}
