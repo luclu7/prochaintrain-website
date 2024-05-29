@@ -11,8 +11,13 @@ export const Header = () => (
                     <h1>ProchainTrain</h1>
                 </div>
                 <div className={"subtext"}>
-                    <h2>Les horaires de train,<br />
-                        <span className={"subSubText"}>facilement et rapidement</span></h2>
+                    <h2>
+                        Les horaires de train,
+                        <br />
+                        <span className={"subSubText"}>
+                            facilement et rapidement
+                        </span>
+                    </h2>
                 </div>
                 <AppStoreLogo />
             </div>
@@ -21,4 +26,4 @@ export const Header = () => (
             </div>
         </div>
     </div>
-)
+);

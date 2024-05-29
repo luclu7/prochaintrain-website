@@ -1,4 +1,4 @@
-import './App.css'
+import "./App.css";
 import { Footer } from "./components/modules/Footer.tsx";
 import { Header } from "./components/modules/Header.tsx";
 import { SecondPart } from "./components/modules/SecondPart.tsx";
@@ -12,7 +12,7 @@ function App() {
 
             <Footer />
         </>
-    )
+    );
 }
 
-export default App
+export default App;

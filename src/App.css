@@ -18,12 +18,10 @@
     padding-right: 1em;
 }
 
-
 .wrapper {
     color: rgba(255, 255, 255, 0.87);
     background-color: #242424;
 }
-
 
 .header {
     display: flex;
@@ -37,7 +35,6 @@
 
     & > .subtext {
         font-size: 2em;
-
     }
 }
 
@@ -50,7 +47,6 @@
     font-size: 1.5em;
 }
 
-
 .characteristics {
     padding-left: 1rem;
 }
@@ -60,7 +56,6 @@
     margin-right: 0.5em;
     border-radius: 20%;
 }
-
 
 .subSubText {
     color: #06a77d;
@@ -98,7 +93,7 @@
     transform: translateY(-50%);
     width: 0.4rem;
     height: 60%;
-    background-color: #454ADE;
+    background-color: #454ade;
     padding: 1rem 0;
     box-sizing: border-box;
 }
@@ -117,7 +112,7 @@
     transform: translateY(-50%);
     width: 0.4rem;
     height: 60%;
-    background-color: #06A77D;
+    background-color: #06a77d;
     padding: 1rem 0;
     box-sizing: border-box;
 }
@@ -150,14 +145,14 @@
 }
 
 .contact {
-    & > p, h3 {
+    & > p,
+    h3 {
         margin: 0;
     }
 
     & > p > span {
         margin-left: -0.35rem;
         margin-right: -0.35rem;
-
     }
 }
 
@@ -204,7 +199,8 @@
         height: 5rem;
     }
 
-    .appStoreLogo, .appStoreLink {
+    .appStoreLogo,
+    .appStoreLink {
         margin: 0;
         display: flex;
         justify-content: center;
@@ -214,11 +210,13 @@
         font-size: 22px;
     }
 
-    .blueBarText, .greenBarText {
+    .blueBarText,
+    .greenBarText {
         padding-left: 1rem;
     }
 
-    .blueBarText::before, .greenBarText::before {
+    .blueBarText::before,
+    .greenBarText::before {
         width: 0.3rem;
         height: 50%;
         padding: 0.5rem 0;
