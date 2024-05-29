@@ -1,4 +1,4 @@
-import affluence from "../../assets/Affluence.png";
+import affluence from "../../assets/affluence.png";
 import { Characteristics } from "../Description.tsx";
 
 export const SecondPart = () => (
