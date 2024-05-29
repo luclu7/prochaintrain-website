@@ -16,7 +16,9 @@ export const Header = () => (
                 </div>
                 <AppStoreLogo />
             </div>
-            <img src={trainsList} alt="Trains List" />
+            <div className={"trains-list-container"}>
+                <img src={trainsList} alt="Trains List" />
+            </div>
         </div>
     </div>
 )
