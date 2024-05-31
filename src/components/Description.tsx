@@ -9,15 +9,15 @@ const textes: Texte[] = [
     },
     {
         title: "Affichage de l’affluence en temps réel",
-        description: "Pour savoir où se positionner",
+        description: "Pour se positionner",
     },
     {
         title: "Affichage des perturbations en cours",
-        description: "N’ayez pas un train de retard !",
+        description: "N’ayez pas un train de retard",
     },
     {
         title: "Liste interactive des arrêts",
-        description: "Naviguez entre les gares !",
+        description: "Naviguez facilement entre les gares",
     },
 ];
 export const Characteristics = () => (
